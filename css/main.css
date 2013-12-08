@@ -1,0 +1,26 @@
+#jb1{
+    width: 340px;
+    height: auto;
+}
+
+.float-left-box{
+    float: left;
+    width: 315px;
+    margin-right: 20px;
+}
+.button-group{
+    margin-left: 40px;
+    /*width: 5px;*/
+}
+.float-mid-box{
+    background-color: black;
+    float:left;
+    margin-right: 21px;
+}
+.middle-tab{
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    font-weight: 200;
+    width: 50%;
+    height: 100%;
+}

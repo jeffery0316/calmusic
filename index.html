@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="Shortcut Icon" type="image/x-icon" href="img/navicon.jpg" />
+        <link rel=stylesheet type="text/css" href="css/main.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->        
+        <title>calMusic</title>
+    </head>
+    <body>
+        <div><h3>calMusic</h3></div>
+        <!-- left box -->
+        <div class="float-left-box"><canvas id="album" width="250" height="250"></canvas>
+            <div class="button-group"><button id="last" type="button" class="btn btn-danger">last</button>
+                 <button id="next" type="button" class="btn btn-danger">next</button>
+                 <button id="clear" type="button" class="btn btn-danger">clear</button>
+            </div>
+        </div>
+        <!-- middle box -->
+        <div class="float-mid-box">
+            <table class="middle-tab" border="2">
+                <tr>
+                    <td>  test
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- right box -->
+        <div class="float-right-box"></div>
+
+        <img id="jb1" src="img/jb1.jpg" style="display:none;"/>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="js/albumVisual.js"></script>        
+    </body>
+</html>
